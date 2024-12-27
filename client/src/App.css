@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p{
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.default-size{
+  width: 100vw;
+  height: 100vh;
+}
+
+.stroke-orange {
+  -webkit-text-stroke: 1px #FF8000;
+}
+.stroke-orange2 {
+  -webkit-text-stroke: 0.1px #FF8000;
+}
+
+.stroke-white {
+  -webkit-text-stroke: 1.3px rgb(255, 255, 255);
+}
+
+
+.stroke-black {
+  -webkit-text-stroke: 1.3px rgb(49, 45, 45);
+}
+
+
+.homebanner{
+  height: 632px;
+}
+
+.dashboard-section div:hover{
+  background-color: rgba(88, 84, 84, 0.212);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.dashboard-section div{
+padding: 10px;
+display: flex ;
+align-items: center;
+color: rgba(0, 0, 0, 0.658);
+column-gap: 10px;
+}
+/* -------adv--------- */
+
+
+
+.btn2 {
+ @apply text-[#A3E81D] rounded-md border-[3px] border-[#A3E81D] p-[10px] shadow font-Roboto uppercase bg-black text-[17px] min-w-[200px] hover:scale-105 duration-100
+  
+}
+.btn{
+  @apply bg-black px-4 p-3 rounded-md text-white font-Roboto tracking-wider uppercase font-semibold text-sm text-center
+}
+
+
+
+
+
+.input-group{
+  margin-bottom: 20px;
+}
+
+
+.input-group input{
+  color: white;
+}
+
+
+.noScroll{
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
